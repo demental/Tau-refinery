@@ -25,6 +25,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'twitter-bootstrap-rails'
 
 # For use with S3 storage
 gem 'fog'
