@@ -27,6 +27,8 @@ end
 gem 'jquery-rails'
 gem 'twitter-bootstrap-rails'
 
+gem 'tlsmail'
+
 # For use with S3 storage
 gem 'fog'
 # To use ActiveModel has_secure_password
