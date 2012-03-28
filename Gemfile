@@ -26,6 +26,8 @@ end
 
 gem 'jquery-rails'
 
+# For use with S3 storage
+gem 'fog'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
