@@ -11,12 +11,12 @@ Refinery::Core.configure do |config|
   # config.base_cache_key = :refinery
 
   # Site name
-  # config.site_name = "Company Name"
+   config.site_name = "Tau Coworking Toulouse"
 
   # This activates Google Analytics tracking within your website. If this
   # config is left blank or set to UA-xxxxxx-x then no remote calls to
   # Google Analytics are made.
-  # config.google_analytics_page_code = "UA-xxxxxx-x"
+   config.google_analytics_page_code = "UA-22331505-2"
 
   # Enable/disable authenticity token on frontend
   # config.authenticity_token_on_frontend = true
@@ -35,7 +35,7 @@ Refinery::Core.configure do |config|
   # config.ie6_upgrade_message_enabled = true
 
   # Show/hide browser update message in the backend
-  # config.show_internet_explorer_upgrade_message = false
+  config.show_internet_explorer_upgrade_message = false
 
   # Add extra tags to the wymeditor whitelist e.g. = {'tag' => {'attributes' => {'1' => 'href'}}} or just {'tag' => {}}
   # config.wymeditor_whitelist_tags = {}

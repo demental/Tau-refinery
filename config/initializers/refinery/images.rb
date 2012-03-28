@@ -13,7 +13,7 @@ Refinery::Images.configure do |config|
   # config.pages_per_admin_index = 20
 
   # Configure image sizes
-  # config.user_image_sizes = {:small=>"110x110>", :medium=>"225x255>", :large=>"450x450>"}
+  config.user_image_sizes = {:small=>"110x110>", :medium=>"225x255>", :large=>"450x450>"}
 
   # Configure image view options
   # config.image_views = [:grid, :list]
@@ -27,7 +27,7 @@ Refinery::Images.configure do |config|
   # config.s3_bucket_name = ENV['S3_BUCKET']
   # config.s3_access_key_id = ENV['S3_KEY']
   # config.s3_secret_access_key = ENV['S3_SECRET']
-  # config.s3_region = ENV['S3_REGION]
+  # config.s3_region = ENV['S3_REGION']
 
   # Configure Dragonfly
   # This is where in the middleware stack to insert the Dragonfly middleware
