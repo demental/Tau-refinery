@@ -6,7 +6,7 @@ body {
 
 @media (max-width: 480px) {
   .brand {
-    font-size:8px;
+    text-indent: -9000px;    
   }
 }
 @media (max-width: 768px) {
@@ -35,7 +35,8 @@ body {
 
 footer p {
   padding-top: 3em;
-  text-align: center;
+  text-align: right;
+  margin-right: 30px;
 
   font-size: 11px;
 }
