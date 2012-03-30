@@ -4,6 +4,11 @@ body {
   background: url('bgsite.png') center top no-repeat;
 }
 
+@media (max-width: 480px) {
+  .brand {
+    font-size:8px;
+  }
+}
 @media (max-width: 768px) {
   .brand {
     font-size: 14px !important;
