@@ -19,14 +19,14 @@ body { padding-top: 60px; }
 // Example:
 // @linkColor: #ff0000;
 
-@navbarBackground: @white;
+@linkColor: #c4302d;
+
+@navbarBackground: @grayLighter;
 @navbarBackgroundHighlight: @grayLighter;
-@navbarText: @grayDarker;
+@navbarText: @linkColor;
 @navbarLinkColor: @grayDark;
 @navbarLinkColorHover: @grayDarker;
 
-@linkColor: #c4302d;
-
-
-.brand { @shadow: 0 1px 3px rgba(0,0,0,.25) }
-
+.brand {
+color: @linkColor !important;
+}

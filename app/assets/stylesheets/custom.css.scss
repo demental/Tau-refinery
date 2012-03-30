@@ -3,14 +3,32 @@ h1,h2,h3,h4,h5,h6 { font-family: 'Montez', cursive; font-weight: 200 }
 body {
   background: url('bgsite.png') center top no-repeat;
 }
-.brand {
-  width: 100px;
-  height: 272px;
-  position: absolute;
-  text-indent: -9000px;
-  top: 27px;
-  left: 50%;
-  margin-left: -53px !important;
-  right:0;
-  background: url('logo.png') left top no-repeat;
+
+@media (max-width: 768px) {
+  .brand {
+    font-size: 14px !important;
+    background: url('logo_mobile.png') left top no-repeat;
+    height: 32px;
+    line-height: 32px !important;
+    margin-top: 5px !important;
+    padding:5px 5px 5px 37px !important;
+  }
 }
+@media (min-width: 769px) {
+  .brand {
+    text-indent: -9000px;
+    width: 100px;
+    height: 272px;
+    position: absolute;
+    top: 13px;
+    left: 50%;
+    margin-left: -53px !important;
+    right:0;
+    background: url('logo.png') left top no-repeat;
+  }
+}
+
+  .brand {
+    position: normal;
+    
+  }
