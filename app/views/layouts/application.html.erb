@@ -10,7 +10,13 @@
     </header>
     <div class="container">
       <div class="content">
-        <%= yield %>
+        <div class="row">
+          <div class="span5" id="content">
+            <%= yield :body_content_left %>
+          </div>
+          <div class="span5 offset2" id="secondary">
+            <%= yield %>
+          </div>
       </div>
     </div>  
       <footer>
