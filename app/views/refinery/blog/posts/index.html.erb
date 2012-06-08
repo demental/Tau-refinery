@@ -11,9 +11,8 @@
 <% end %>
 
 <% content_for :side_body do -%>
-<%= #raw @page.content_for(Refinery::Pages.default_parts.second.to_sym) %>
 <%= render "/refinery/content_page" %>
-<% end if Refinery::Pages.default_parts.many? -%>
+<% end if(Refinery::Pages.default_parts.many?) -%>
 <%= render '/refinery/blog/shared/body_content_right' %>
 
 <% content_for :stylesheets, stylesheet_link_tag('refinery/blog/frontend') %>
