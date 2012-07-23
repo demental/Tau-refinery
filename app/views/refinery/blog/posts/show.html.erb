@@ -8,9 +8,8 @@
   <% end %>
 <% end %>
 
+<%= render :partial => '/refinery/blog/shared/body_content_right' %>
 
-
-<%= render :partial => "/refinery/content_page", :locals => { :remove_automatic_sections => true }  %>
 
 <% content_for :stylesheets, stylesheet_link_tag('refinery/blog/frontend') %>
 <% content_for :javascripts do %>
