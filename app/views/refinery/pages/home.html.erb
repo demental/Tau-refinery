@@ -3,3 +3,21 @@
     <%= raw @page.content_for(:body) %>
 <% end %>
 <%= raw @page.content_for(:side_body) %>
+<% if @blog_posts.any? %>
+  <h2>L'actualité</h2>
+  <section id="blog_posts">
+    <ul id="blog_posts">
+      <% @blog_posts.each do |blog_post| %>
+        <li>
+          <time datetime="<%=l blog_post.published_at.to_date, :format => :default %>" class='posted_at'>
+            <%= t('created_at', :scope => 'refinery.blog.shared.posts', :when => l(blog_post.published_at.to_date, :format => :short)) %>
+          </time>
+
+          <%= link_to blog_post.title, refinery.blog_post_path(blog_post) %>
+        </li>
+      <% end %>
+    </ul>
+  </section>
+<% else %>
+  <p><%= t('.no_blog_articles_yet') %></p>
+<% end %>

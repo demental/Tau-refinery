@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.2'
+gem 'rails', '3.2.8'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -49,11 +49,11 @@ gem 'fog'
 
 
 # Refinery CMS
-gem 'refinerycms', '~> 2.0.0'
+gem 'refinerycms', '~> 2.0.8'
 
 # Specify additional Refinery CMS Extensions here (all optional):
-gem 'refinerycms-i18n',   '~> 2.0.0'
-gem 'refinerycms-blog', '~> 2.0.0'
+gem 'refinerycms-i18n'
+gem 'refinerycms-blog'
 #  gem 'refinerycms-inquiries', '~> 2.0.0'
 #  gem 'refinerycms-search', '~> 2.0.0'
 #  gem 'refinerycms-page-images', '~> 2.0.0'
