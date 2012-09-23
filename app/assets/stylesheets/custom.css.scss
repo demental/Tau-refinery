@@ -1,12 +1,13 @@
 h1,h2,h3,h4,h5,h6 { font-family: 'Montez', cursive; font-weight: 200 }
 
 body {
-  background: url('bgsite.png') center top no-repeat;
+  background: #fff url('bgsite.png') -40px top no-repeat;
+
 }
 
 @media (max-width: 480px) {
   .brand {
-    text-indent: -9000px;    
+    text-indent: -9000px;
   }
 }
 @media (max-width: 768px) {
@@ -32,7 +33,6 @@ body {
     background: url('logo.png') left top no-repeat;
   }
 }
-
 footer p {
   padding-top: 3em;
   text-align: right;
