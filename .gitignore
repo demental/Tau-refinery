@@ -88,5 +88,3 @@ capybara-*html
 #rvm
 .rvmrc
 .rvmrc.*
-
-public/assets/*
