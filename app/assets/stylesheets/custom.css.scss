@@ -1,8 +1,9 @@
-h1,h2,h3,h4,h5,h6 { font-family: 'Montez', cursive; font-weight: 200 }
+h1,h2,h3,h4,h5,h6 { font-family: Georgia, serif; font-weight: 400 }
 
 body {
   background: #fff url('bgsite.png') -40px top no-repeat;
-
+  font-family: Georgia, serif;
+  font-size: 16px;
 }
 
 @media (max-width: 480px) {
