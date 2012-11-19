@@ -4,7 +4,7 @@ montez-regular-webfont.svg: montez-regular-webfont-f819d03b3965adb170e44396814e2
 montez-regular-webfont.ttf: montez-regular-webfont-79bcdc6c19152334eb6dbc4cef5e5a4a.ttf
 montez-regular-webfont.woff: montez-regular-webfont-d6c8233a68893ae19b81099c905625a4.woff
 background_twitter.png: background_twitter-81777af4c58b9433237e5c793c36fce8.png
-bgsite.png: bgsite-9fc8aaf079905ddb92054430450b0b78.png
+bgsite.png: bgsite-c20843884d06d88e8e10a3f7bc259d0b.png
 logo.jpg: logo-7aec347db5376974958c15b9349257f3.jpg
 logo.png: logo-0acb70b37be60b6fde794038e86854e5.png
 logo_mobile.png: logo_mobile-b83df5792e49a74ffd5267cab046b820.png
@@ -12,7 +12,7 @@ mini.png: mini-f8f7e656f83d5aa3dabe9eed49a3a246.png
 rails.png: rails-be8732dac73d845ac5b142c8fb5f9fb0.png
 tau_logo_transp.png: tau_logo_transp-b6042bf722c34285e90fb31fbfd953cc.png
 application.js: application-fb513749fa7e09597812451a60bcb4e4.js
-application.css: application-17bc3ac86a1cf46e4e9c31674f89281f.css
+application.css: application-70226a63156d9207b5a206179d7800a8.css
 refinery/blog/icons/cog.png: refinery/blog/icons/cog-e41172ed496e52a76cfd43bf10a8ad65.png
 refinery/blog/icons/comment.png: refinery/blog/icons/comment-05230132d28836b8c62e900d54349d52.png
 refinery/blog/icons/comment_cross.png: refinery/blog/icons/comment_cross-d69961c5b45c540ae2ec79e64f5dfee8.png
