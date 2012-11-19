@@ -4,7 +4,7 @@
 <% end %>
 <%= raw @page.content_for(:side_body) %>
 <% if @blog_posts.any? %>
-  <h2>L'actualité</h2>
+<h2><%= t('blog.title')%></h2>
   <section id="blog_posts">
     <ul id="blog_posts">
       <% @blog_posts.each do |blog_post| %>
