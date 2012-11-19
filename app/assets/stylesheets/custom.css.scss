@@ -47,3 +47,9 @@ footer p {
     float: right;
   }
 }
+.langs {
+  font-variant: small-caps;
+  ul { float: right;}
+  li { list-style: none; display: inline }
+  a { padding: 0 1em; }
+}

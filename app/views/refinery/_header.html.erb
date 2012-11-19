@@ -1,4 +1,17 @@
-          <div class="container">
+<div class="container">
+  <div class="langs">
+    <ul>
+    <% Refinery::I18n.config.frontend_locales.each do |locale| %>
+        <li>
+            <%= link_to "/#{locale.to_s + request.path}", {:title => Refinery::I18n.locales[locale]} do%>
+                <span><%= Refinery::I18n.locales[locale] %></span>
+            <% end -%>
+        </li>
+    <% end %>
+    </ul>
+  </div>
+</div>
+<div class="container">
     <div class="navbar">
       <div class="navbar-inner">
               <%= link_to Refinery::Core.site_name, refinery.root_path, :class => 'brand' %>
@@ -13,4 +26,5 @@
            }) %>
 </div>
 </div>
+
 </div>
