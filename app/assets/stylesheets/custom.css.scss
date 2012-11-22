@@ -1,7 +1,19 @@
-h1,h2,h3,h4,h5,h6 { font-family: Georgia, serif; font-weight: 400 }
+h1,h2,h3,h4,h5,h6 {
+  font-weight: 400; display: inline-block;
+  background: #c04300; color: #fff; padding: 0 .3em;
+}
+#content{
+  ul{
+    li {
+      list-style: image;
+      list-style-image: url('list.png');
+    }
+  }
+}
+
 
 body {
-  background: #fff url('bgsite.png') right top no-repeat;
+  background: #fff url('bgsite.png') right top no-repeat fixed;
   font-family: Georgia, serif;
   font-size: 16px;
 }
@@ -11,7 +23,7 @@ body {
     text-indent: -9000px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 979px) {
   .brand {
     font-size: 14px !important;
     background: url('logo_mobile.png') left top no-repeat;
@@ -21,16 +33,15 @@ body {
     padding:5px 5px 5px 37px !important;
   }
 }
-@media (min-width: 769px) {
+@media (min-width: 978px) {
   .brand {
+    display: block;
+    margin: auto;
+    padding:0;
     text-indent: -9000px;
-    width: 100px;
-    height: 272px;
-    position: absolute;
-    top: 13px;
-    left: 50%;
-    margin-left: 53px !important;
-    right:0;
+    width: 105px;
+    height: 185px;
+    margin-top: -127px;
     background: url('logo.png') left top no-repeat;
   }
 }
@@ -47,9 +58,88 @@ footer p {
     float: right;
   }
 }
+/* ====================== */
+/* = NAvigation langues = */
+/* ====================== */
 .langs {
-  font-variant: small-caps;
-  ul { float: right;}
-  li { list-style: none; display: inline }
-  a { padding: 0 1em; }
+  font-size: 80%;
+  position: absolute;
+  top: 0;
+  ul { float: left; padding:0;margin: 0}
+  li {
+    display: block;margin: 0 0 0 10px;
+    background: #ccc;
+    padding: 5px 10px;
+    list-style: none; display: inline }
+
+  a { padding: 0; }
+}
+/* ===================== */
+/* = Navigation social = */
+/* ===================== */
+
+.social {
+  font-size: 80%;
+  margin-top: -90px;
+  right: 0;
+
+  position: relative;
+  ul { float: right; padding:0;margin: 0; display: block; width: 400px}
+  li {
+    display: block;margin: 0 0 0 10px;
+    background: #eee;
+    padding: 5px 10px;
+    list-style: none; display: block;
+    float: right }
+
+  a { padding: 0; }
+}
+#logogrid {
+  text-align: center;
+}
+
+#secondary {
+  ul{
+    list-style: none;
+    margin-left: 0;
+    li {
+      margin-bottom: 0.7em;
+      margin-left: -28px;
+      overflow: hidden;
+      padding-bottom:5px;
+    }
+    time {
+      display: block;
+      float: left;
+      margin-right: 8px;
+      height: 24px;
+      width: 24px;
+      overflow: hidden;
+      border: 1px solid #aaa;
+      -webkit-transform: rotate(-45deg);
+      .day {
+        background: #c04300;
+        color: #fff;
+        padding: 0;
+        text-align: center;
+        font-size:10px;
+        display: block;
+        overflow: hidden;
+        font-weight: bold;
+        line-height: 14px;
+        margin:0;padding:0;
+      }
+      .month {
+        text-transform: capitalize;
+        background: #fff;
+        color: #000;
+        font-size: 7px;
+        line-height: 10px;
+        text-align: center;
+        display: block;
+        font-family: arial;
+      }
+    }
+  }
+
 }

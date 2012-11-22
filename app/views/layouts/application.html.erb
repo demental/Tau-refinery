@@ -4,6 +4,25 @@
   <%= render '/refinery/head' %>
   <body>
     <%= site_bar -%>
+    <div class="container">
+      <div class="social">
+        <ul>
+          <li><a href="http://tau.us4.list-manage.com/subscribe?u=fbc6f8a60dfdea7786f103d47&id=2abdb962c2">
+            Newsletter
+          </a></li>
+          <li><a href="https://twitter.com/taucw">
+            <%= image_tag('icons/twitter.png')%>
+          </a></li>
+          <li><a href="http://tau.so/blog/feed.rss">
+            <%= image_tag('icons/rss.png')%>
+          </a></li>
+          <li><a href="http://www.facebook.com/tau.coworkingtoulouse">
+            <%= image_tag('icons/facebook.png')%>
+
+          </a></li>
+        </ul>
+      </div>
+    </div>
     <%= render '/refinery/ie6check' if request.env['HTTP_USER_AGENT'] =~ /MSIE/ -%>
     <header id="header">
       <%= render '/refinery/header' -%>
@@ -11,10 +30,13 @@
     <div class="container">
       <div class="content">
         <div class="row">
-          <div class="span6" id="content">
+          <div class="span7" id="content">
             <%= yield :body_content_left %>
           </div>
-          <div class="span4 offset2" id="secondary">
+          <div class="span2" id="logogrid">
+            <%= link_to Refinery::Core.site_name, refinery.root_path, :class => 'brand' %>
+          </div>
+          <div class="span3" id="secondary">
             <%= yield %>
           </div>
       </div>

@@ -1,3 +1,7 @@
 fr:
   blog:
     title: L'actualité
+  date:
+    formats:
+      day: "%e"
+      month: "%b"
