@@ -1,6 +1,9 @@
 h1,h2,h3,h4,h5,h6 {
   font-weight: 400; display: inline-block;
   background: #c04300; color: #fff; padding: 0 .3em;
+  a {
+    color: #fff;
+  }
 }
 #content{
   ul{
