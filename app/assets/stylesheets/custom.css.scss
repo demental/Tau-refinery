@@ -120,6 +120,8 @@ footer p {
       overflow: hidden;
       border: 1px solid #aaa;
       -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
       .day {
         background: #c04300;
         color: #fff;
