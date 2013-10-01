@@ -49,7 +49,7 @@ gem 'fog'
 
 
 # Refinery CMS
-gem 'refinerycms', '~> 2.0.9'
+gem 'refinerycms'
 
 # Specify additional Refinery CMS Extensions here (all optional):
 gem 'refinerycms-i18n'
