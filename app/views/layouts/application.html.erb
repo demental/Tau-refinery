@@ -13,9 +13,9 @@
           <li><a href="https://twitter.com/taucw">
             <%= image_tag('icons/twitter.png')%>
           </a></li>
-          <li><a href="http://tau.so/blog/feed.rss">
-            <%= image_tag('icons/rss.png')%>
-          </a></li>
+          <li>
+            <%= link_to image_tag('icons/rss.png'), refinery.blog_rss_feed_url %>
+          </li>
           <li><a href="http://www.facebook.com/tau.coworkingtoulouse">
             <%= image_tag('icons/facebook.png')%>
 
